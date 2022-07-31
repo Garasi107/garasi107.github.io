@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+
+<head>
+<meta charset="utf-8">
+<title>Gudang Aplikasi Internal</title>
+
+
+<link rel="stylesheet" href="Gudangaplikasi.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+<style>
+    .card {
+        width: 250px;
+        background-color: white;
+        margin-left: 20px;
+        border: solid 1px rgb(25, 25, 138);
+    }
+
+    .card-header {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .card-body {
+        padding: 20px;
+        list-style: none;
+        transition: transfom 0.5s;
+        border-style: navy;
+    }
+
+    .card-body a {
+        text-decoration: none;
+        color: navy;
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    .card ul li :hover {
+    transform: scale(1.1);
+    z-index: 100;
+    background-color: rgb(119, 202, 229);
+    }
+
+   
+
+</style>
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label>
+        <div class="left_area">
+            <h3>Garasi <span>107</span></h3>
+            <h5>Gudang aplikasi dan Informasi 107</h5>
+        </div>
+        <div class="right_area">
+            <a href="#" class="logout_btn">Gudang Aplikasi Internal</a>
+        </div>
+    </header>
+    <!--header area end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+        <center>
+            <img src="image/107.png" class="profile_image" alt="">
+            <h4>Welcome!</h4>
+        </center>
+
+        <div class="menu">
+            <a href="index.html"><i class="fas fa-id-badge"></i><span>Profil KPP 107</span></a>
+            <a href="Dashboardfix.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard Penerimaan</span></a>
+            <a href="Gudangaplikasi.html"><i class="fas fa-desktop"></i><span>Gudang Aplikasi Internal</span></a>
+            <a href="Unduhapkfix.html"><i class="fas fa-download"></i><span>Unduh Aplikasi</span></a>
+            <a href="Galeri.html"><i class="fas fa-camera"></i><span>Galeri 107</span></a>
+            <a href="QandA.html"><i class="fas fa-question-circle"></i><span>Q and A</span></a>
+        </div>
+            <div class="medsos">
+                <ul style="padding: 0px">
+                    <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                            href="https://www.instagram.com/pajaksubulussalam/">
+                            <img src="image/instagramlogo.png" width="20" height="20"
+                                style="padding-left:0px;"></a></li>
+    
+                    <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                            href="https://twitter.com/pajaksbsalam">
+                            <img src="image/Twitterlogo.png"
+                                width="20" height="20" style="padding-left:0px;"></a></li>
+    
+                    <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                            href="https://www.youtube.com/channel/UCm5PYg6IwDoK8_vuXyzpzGw">
+                            <img src="image/youtube.png"
+                                width="20" height="20" style="padding-left: 0px;"></a></li>
+    
+                    <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                            href="https://www/facebook.com/pajaksubulussalam/">
+                            <img src="image/facebooklogo.png"
+                                width="20" height="20" style="padding-left: 10px; padding-right: 0px;"></a></li>
+                </ul>
+            </div>
+            <br>
+        <img src="image/Berakhlak.png" style="height: 40px; padding-left: 10px;" alt=""><img src="image/ASN.png" style="height: 40px; padding-left: 10px;" alt="">
+        </div>
+        <!--sidebar end-->
+    <div class="content">
+        <div style="height: 150px; width: 100%"></div>
+        <h1 style="margin-left: 20px;">Aplikasi Internal Kemenkeu</h1>
+        <div style="display: flex;">
+            <div class="card">
+                <div class="card-header" style="background-color: navy;  color: white;">
+                    Utama</div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="https://office.kemenkeu.go.id/nadine/mejaku" target="_blank"
+                                title="Naskah Dinas Elektronik">Nadine</a>
+                        </li>
+                        <li><a href="http://e-performance.kemenkeu.go.id//" target="_blank"
+                                title="Kinerja/Iku Pegawai (Rekam Konkin)">E-Performance</a>
+                        </li>
+                        <li><a href="https://hris.e-prime.kemenkeu.go.id/" target="_blank"
+                                title="Akun HRIS (Pemutakhiran Data Pegawai)">HRIS</a>
+                        </li>
+                        <li><a href="https://e-prime.kemenkeu.go.id/" target="_blank"
+                                title="Kesektariatan Kemenkeu">E-Prime</a>
+                        </li>
+                        <li><a href="http://agenda.e-prime.kemenkeu.go.id/" target="_blank"
+                                title="Agenda Pegawai">E-Agenda</a>
+                        </li>
+                        <li> <a href="https://sso.kemenkeu.go.id/" target="_blank"
+                                title="Akun tunggal digital (Single Identity Login)">Kemenkeu.id</a>
+                        </li>
+                        <li><a href="https://office.kemenkeu.go.id/home" target="_blank"
+                                title="Kumpulan sistem informasi untuk mendukung office automation pegawai">Office Kemenkeu</a>
+                        </li>
+                        <li><a href="https://e-dropbox.kemenkeu.go.id/index.php/login" target="_blank"
+                                title="E-Dropbox Kemenkeu">E-Dropbox</a>
+                        </li>
+                        <li><a href="https://webmail.kemenkeu.go.id/" target="_blank"
+                                title="Webmail Kemenkeu">Webmail Kemenkeu</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header"
+                style="background-color: navy;  color: white;">
+                    Pembelajaran</div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="https://klc2.kemenkeu.go.id/" target="_blank" 
+                            title="Kemenkeu Learning Center (Media Pembelajaran Online">KLC</a>
+                        </li>
+                        <li>
+                            <a href="http://studia.intranet.pajak.go.id/" target="_blank"
+                                title="Media Pembelajaran Intranet">Studia
+                                (intranet)</a>
+                        </li>
+                        <li>
+                            <a href="https://semantik.bppk.kemenkeu.go.id/" target="_blank"
+                                title="Daftar Diklat">Semantik BPPK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" style="background-color:navy;  color: white;">
+                      Bantuan dan Pengaduan </div>
+                <div class="card-body">
+                      <ul>
+                        <li>
+                            <a href="https://servicedesk.kemenkeu.go.id/" target="_blank" 
+                            title="Layanan Bantuan">Service Desk</a>
+                        </li>
+                        <li>
+                            <a href="https://www.wise.kemenkeu.go.id/#/" target="_blank" title="Lapor Indikasi Pelanggaran">Whistleblowing System</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height: 50px; width: 100%"></div>
+        <h1 style="margin-left: 20px;">Aplikasi Internal DJP</h1>
+        <div style="display: flex;">
+            <div class="card">
+                <div class="card-header" style="background-color: yellow; color: black; border-bottom: solid 1px rgb(0, 0, 0);">
+                    Umum</div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="http://approweb.intranet.pajak.go.id/" target="_blank"
+                                title="Aplikasi Profile WP">Approweb</a>
+                        </li>
+                        <li>
+                            <a href="https://appportal.intranet.pajak.go.id/login/" target="_blank"
+                                title="Aplikasi Portal DJP">Appportal</a>
+                        </li>
+                        <li>
+                            <a href="https://email.pajak.go.id/owa/auth/logon.aspx?replaceCurrent=1&url=https%3a%2f%2femail.pajak.go.id%2fowa%2f/"
+                                target="_blank" title="Email DJP">Email DJP</a>
+                        </li>
+                        <li>
+                            <a href="https://alket.intranet.pajak.go.id/login" target="_blank"
+                                title="Rekam Alat Keterangan">Alket</a>
+                        </li>
+                        <li>
+                            <a href="https://renpen.intranet.pajak.go.id/login" target="_blank"
+                                title="Rencana Penerimaan">Renpen</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" style="background-color: yellow; color: black; border-bottom: solid 1px rgb(0, 0, 0);">
+                    Kepegawaian</div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="https://sikka-djp.intranet.pajak.go.id/" target="_blank"
+                                title="Sistem Informasi Kepegawaian">SIKKA</a>
+                        </li>
+                        <li>
+                            <a href="https://sikeu-djp.intranet.pajak.go.id/" target="_blank"
+                                title="SPD Pindah, dll.">Sistem Informasi Keuangan
+                                (Sikeu)</a>
+                        </li>
+                        <li>
+                            <a href="https://logbook.pajak.go.id/login/" target="_blank"
+                                title="Absen dan isi logbook">Logbook</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" style="background-color: yellow; color: black; border-bottom: solid 1px rgb(0, 0, 0);">
+                    TPT</div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="http://sidjp.intranet.pajak.go.id:7777/SIDJP/sipt_web.showlogin" target="_blank"
+                                title="Sistem Informasi DJP">SIDJP</a>
+                        </li>
+                        <li>
+                            <a href="https://administrasi-sidjpnine.intranet.pajak.go.id/auth/login" target="_blank"
+                                title="Aplikasi Cek Status WP">Adm-SIDJP Nine</a>
+                        </li>
+                        <li>
+                            <a href="https://tpt-sidjpnine.intranet.pajak.go.id/login" target="_blank"
+                                title="Aplikasi perekaman SPT, Surat Masuk, dll.">TPT-SIDJP Nine</a>
+                        </li>
+                        <li>
+                            <a href="https://ereg.intranet.pajak.go.id/login" target="_blank"
+                                title="Aktivasi Nomor Efin">Aktivasi Efin</a>
+                        </li>
+                        <li>
+                            <a href="https://billing-djp.intranet.pajak.go.id/" target="_blank"
+                                title="Aplikasi Pembuatan ID Billing">Billing</a>
+                        </li>
+                        <li>
+                            <a href="http://monitoring.intranet.pajak.go.id:8080/cektoken/login.php" target="_blank"
+                                title="Cek Token Wajib Pajak">Cek Token</a>
+                        </li>
+                        <li>
+                            <a href="https://ereg.intranet.pajak.go.id/login" target="_blank"
+                                title="Registrasi untuk WP (Intranet)">E-reg
+                                (intranet)</a>
+                        </li>
+                        <li>
+                            <a href="https://ereg.pajak.go.id/login" target="_blank"
+                                title="Resgistrasi untuk WP (Internet)">E-reg (Internet)</a>
+                        </li>
+                        <li>
+                            <a href="https://djponline/account/" target="_blank" title="DJP Online (Intranet)">DJP
+                                Online (Intranet)</a>
+                        </li>
+                        <li>
+                            <a href="https://djponline.pajak.go.id/" target="_blank" title="DJP Online (Internet)">DJP
+                                Online (Internet)</a>
+                        </li>
+                        <li>
+                            <a href="https://e-nofa.intranet.pajak.go.id/login" target="_blank"
+                                title="Pemberian Nomor Faktur Online (E-Nofa)">E-Nofa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" style="background-color: yellow; color: black; border-bottom: solid 1px rgb(0, 0, 0);">
+                    Monitoring dan Perekaman</div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="http://monitoringspt.intranet.pajak.go.id:8086/index.aspx" target="_blank"
+                                title="Aplikasi Monitoring SPT">Monitoring Pengolahan SPT</a>
+                        </li>
+                        <li>
+                            <a href="https://sisuka.intranet.pajak.go.id/appsurat//" target="_blank"
+                                title="Aplikasi monitoring eskpedisi surat">Aplikasi Ekspedisi Surat</a>
+                        </li>
+                        <li>
+                            <a href="https://penyuluhan.intranet.pajak.go.id/" target="_blank"
+                                title="Pengawasan Kegiatan dan Tenaga Penyuluhan">Pengawasan Penyuluhan</a>
+                        </li>
+                        <li>
+                            <a href="https://mandor-djp.intranet.pajak.go.id/login" target="_blank"
+                                title="Managerial Dashboard and Online Reporting">Mandor DJP</a>
+                        </li>
+                        <li>
+                            <a href="https://eksten-sidjpnine.intranet.pajak.go.id/" target="_blank"
+                                title="PErekaman DSE SP2DK hingga LHP2DK">Ekstensifikasi SIDJP</a>
+                        </li>
+                        <li>
+                            <a href="https://derik.intranet.pajak.go.id:8443/home" target="_blank"
+                                title="Aplikasi Dekstop Pemeriksaan">Dekstop
+                                Pemeriksaan</a>
+                        </li>
+                        <li>
+                            <a href="https://banding-sidjpnine.intranet.pajak.go.id/login" target="_blank"
+                                title="Aplikasi Cek Banding">Banding</a>
+                        </li>
+                        <li>
+                            <a href="http://persil.intranet.pajak.go.id/login.php" target="_blank"
+                                title="Portal ekstensifikasi, registrasi, dan penilaian">Persil</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height: 50px; width: 100%"></div>
+        <div style="display: flex;">
+        <div class="card">
+            <div class="card-header" style="background-color: yellow; color: black; border-bottom: solid 1px rgb(0, 0, 0);">
+                Bantuan dan Pengaduan</div>
+            <div class="card-body">
+                <ul>
+                    <li>
+                        <a href="http://hesti.intranet.pajak.go.id/lasisbaru/" target="_blank" 
+                        title="Layanan informasi dan pengaduan sistem">Lasis Online</a>
+                    </li>
+                    <li>
+                        <a href="https://helpmi.intranet.pajak.go.id/" target="_blank" 
+                        title="Helpdesk dan layanan mandiri">Helpmi</a>
+                    </li>
+                    <li>
+                        <a  href="https://pengaduanpajak.intranet.pajak.go.id/" target="_blank" 
+                        title="Sistem Informasi Pengaduan Pajak">Pengaduan Pajak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" style="background-color: yellow; color: black; border-bottom: solid 1px rgb(0, 0, 0);">
+                Lain-Lain</div>
+            <div class="card-body">
+                <ul>
+                    <li>
+                        <a href="https://amnesti-pajak.intranet.pajak.go.id" target="_blank" 
+                        title="Amnesti Pajak">Amnesti Pajak</a>
+                    </li>
+                    <li>
+                        <a href="https://mapping.pajak.go.id/v3/" target="_blank" 
+                        title="Geotagging">Geotagging</a>
+                    </li>
+                    <li>
+                        <a href="http://e-klim.taspen.com/espt/" target="_blank" 
+                        title="Bukpok Taspen (Pensiunan PNS)">Bukpot Taspen</a>
+                    </li>
+                    <li>
+                        <a href="http://www.asabri.co.id/page/40/Form_Pajak" target="_blank" 
+                        title="Bukpot Asabri (Pensiunan Polri, TNI, PNS Kemenhan">Bukpot Asabri</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div style="height: 50px; width: 100%"></div>
+        <h1 style="margin-left: 20px;">Aplikasi Internal Kantor</h1>
+        <div style="display: flex;">
+            <div class="card">
+                <div class="card-header" style="background-color: red; color: rgb(255, 255, 255); border-bottom: solid red">
+                    Aplikasi Internal Kantor</div>
+                <div class="card-body">
+                    <ul>
+                        <li>
+                            <a href="10.32.5.85/taxcentre107" target="_blank" 
+                            title="Aplikasi monitoring pegawai oleh atasan langsung">Taxcentre 107</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </div>
+    <br><br><br>
+
+                    
+</body>
+
+</html>

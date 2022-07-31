@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id" dir="ltr">
+
+<head></head>
+<meta charset="utf-8">
+<title>Q and A Garasi 107</title>
+
+
+<link rel="stylesheet" href="QandA.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+<style>
+    .card {
+        width: 250px;
+        background-color: white;
+        margin-left: 20px;
+        border: solid 1px black;
+    }
+
+    .card-header {
+        width: 100%;
+        background-color: navy;
+        color: white;
+        text-align: center;
+        padding: 20px 0px;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+
+    .card-body a {
+        text-decoration: none;
+        color: black;
+    }
+
+    /* Style the buttons that are used to open and close the accordion panel */
+    .accordion {
+        background-color: rgb(23, 0, 125);
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+    }
+
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the
+    mouse over it (hover) */
+    .active,
+    .accordion:hover {
+        background-color: rgb(23, 0, 125);
+    }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
+    }
+</style>
+</head>
+
+<body>
+    <input type="checkbox" id="check">
+    <!--header area start-->
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sidebar_btn"></i>
+        </label>
+        <div class="left_area">
+            <h3>Garasi <span>107</span></h3>
+            <h5>Gudang aplikasi dan Informasi 107</h5>
+        </div>
+        <div class="right_area">
+            <a href="#" class="logout_btn">Q and A</a>
+        </div>
+    </header>
+    <!--header area end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+        <center>
+            <img src="image/107.png" class="profile_image" alt="">
+            <h4>Welcome!</h4>
+        </center>
+
+        <div class="menu">
+            <a href="index.html"><i class="fas fa-id-badge"></i><span>Profil KPP 107</span></a>
+            <a href="Dashboardfix.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard Penerimaan</span></a>
+            <a href="Gudangaplikasi.html"><i class="fas fa-desktop"></i><span>Gudang Aplikasi Internal</span></a>
+            <a href="Unduhapkfix.html"><i class="fas fa-download"></i><span>Unduh Aplikasi</span></a>
+            <a href="Galeri.html"><i class="fas fa-camera"></i><span>Galeri 107</span></a>
+            <a href="QandA.html"><i class="fas fa-question-circle"></i><span>Q and A</span></a>
+        </div>
+        <div class="medsos">
+            <ul style="padding: 0px">
+                <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                        href="https://www.instagram.com/pajaksubulussalam/">
+                        <img src="image/instagramlogo.png" width="20" height="20"
+                            style="padding-left:0px;"></a></li>
+
+                <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                        href="https://twitter.com/pajaksbsalam">
+                        <img src="image/Twitterlogo.png"
+                            width="20" height="20" style="padding-left:0px;"></a></li>
+
+                <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                        href="https://www.youtube.com/channel/UCm5PYg6IwDoK8_vuXyzpzGw">
+                        <img src="image/youtube.png"
+                            width="20" height="20" style="padding-left: 0px;"></a></li>
+
+                <li class="row mt-0" target="_blank" style="display:inline-block;"><a
+                        href="https://www/facebook.com/pajaksubulussalam/">
+                        <img src="image/facebooklogo.png"
+                            width="20" height="20" style="padding-left: 10px; padding-right: 0px;"></a></li>
+            </ul>
+        </div>
+        <br>
+    <img src="image/Berakhlak.png" style="height: 40px; padding-left: 10px;" alt=""><img src="image/ASN.png" style="height: 40px; padding-left: 10px;" alt="">
+    </div>
+    <!--sidebar end-->
+    <div class="content" style="padding-left: 50px; padding-right: 150px; padding-top: 10px;">
+        <div style="height: 120px; width: 100%"></div>
+        <button class="accordion" style="font-size:17px;">1. Bagaimana cara menggunakan web ini?</button>
+        <div class="panel">
+            <p>Silahkan membuka tautan berikut untuk melihat guide book</p>
+            <a href="https://bit.ly/Seputargarasi107" target="blank" >https://bit.ly/Seputargarasi107</a>
+        </div>
+        <br><br>
+        <button class="accordion" style="font-size:17px;">2. Mengapa ada link aplikasi yang tidak bisa dibuka/error?</button>
+        <div class="panel">
+            <p>Silahkan periksa jaringan internet anda atau memang link tersebut dalam tahap perbaikan oleh pihak pusat.</p>
+        </div>
+        <br><br>
+        <button class="accordion" style="font-size:17px;">3. Mengapa VPN tidak bisa connect?</button>
+        <div class="panel">
+            <p>Pastikan antivirus sudah terinstall dengan benar dan telah mengikuti semua panduan yang ada.</p>
+        </div>
+        <br><br>
+        <button class="accordion" style="font-size:17px;">4. Bagaimana jika saya ada kendala lain atau ingin mengetahui lebih lanjut terkait web ini?</button>
+        <div class="panel">
+            <p>Silahkan hubungi seksi PKD</p>
+        </div>
+    </div>
+</body>
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+            /* Toggle between adding and
+                   removing the "active" class, to highlight the button that controls the panel */
+            this.classList.toggle("active"); /* Toggle between hiding and showing the active panel */
+            var
+                panel = this.nextElementSibling;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
+            } else {
+                panel.style.display = "block";
+            }
+        });
+    }
+</script>
+
+</html>
